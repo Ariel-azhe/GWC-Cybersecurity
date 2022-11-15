@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cybersecurity</title>
+    <style>
+
+    </style>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+      <ul id="fixednav">
+    <li><a href=""><img src="logo.png" alt="logo" width="216" height="91"></a></li>
+    <li><a href="index.html">home</a></li>
+    <li><a href="random.html">Facts generator</a></li>
+    <li><a href="crypto.html">Cryptographic generator</a></li>
+  </ul>  
+      <h1 id="bigHeading"></h1>
+      <p style="text-align:center">
+        <p id="fact"></p>
+          <script>
+            const facts=[];
+            facts[0]="a hacking attack occurs every 39 seconds";
+            facts[1]="cyber crime rates tripled since COVID pandemic";
+            facts[2]="75% organizations experience ransomeware attack";
+            facts[3]="identity theft occurences increased 42% in 2020";
+            facts[4]="An average data breach in the US costs 4.24 million dollars";
+            facts[5]="75% cyber attacks start from an email";
+            facts[6]="44 files are stolen every second";
+            var fact=facts[Math.floor(Math.random()*facts.length)];
+            document.getElementById("fact").innerHTML=fact;
+          </script>
+        
+</p>
+        
+  </body>
+</html>

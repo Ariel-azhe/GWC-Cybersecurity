@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Cybersecurity</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <ul id="fixednav">
+    <li><a href=""><img src="logo.png" alt="logo" width="216" height="91"></a></li>
+    <li><a href="index.html">home</a></li>
+    <li><a href="random.html">Facts generator</a></li>
+    <li><a href="crypto.html">Cryptographic generator</a></li>
+  </ul>  
+  <h1 id="bigHeading">Cybersecurity Around Us</h1>
+  <p>by Burlingame Girls Who Code Club</p>
+  <p>Cyber security is a growing concern nowadays due to widespread internet usage and the frequent threats that come along with it.</p>
+  <p>Phishing, the most common cyber attack, has risen 34% in 2021. Clicking into a phishing website could lead to identity thefts, harming individual finance security and privacy.</p>
+  <script src="script.js"></script>
+  <a href="https://atdpsites.berkeley.edu/validate/">HTML5</a>
+  <a href="#bigHeading">Back to top</a>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+  font-family: courier;
+}
+
+#fixednav {
+  position: fixed;
+  top: 0px;
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  color: white;
+  display: inline;
+  padding: 15px 15px 0px 15px;
+}
+
+#bigHeading {
+  padding-top: 125px;
+  padding-left: 15px;
+}
+
+li {
+  display: inline;
+  padding: 75px 15px 0px 15px;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+li, p, a, h1 {
+  color: white;
+  padding-left: 15px;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+  color: white;
+}
+
+flex{
+  display:flex;
+}
+
+center{
+  justify-content:center;
+}
+
+centered-button{
+  position: absolute;
+  top:  50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height:100px;
+  width:200px;
+}
